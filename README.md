@@ -11,9 +11,9 @@ The first thing you'll want to do is install the python debugger vscode extensio
 
 
 ## Install dependencies
-You may also want to install the dependencies associated with the FastAPI secion of this demo. To do so using conda run the following commands:
+You may also want to install the dependencies associated with the FastAPI section of this demo. To do so using conda run the following commands:
 
-1. `conda create --name <your_env_name>`
-2. `conda activate <your_env_name>`
-3. `conda install --file requirements.txt`
+1. `conda create --name python_debug_training --file requirements.txt -y`
+2. `conda activate python_debug_training`
+
 

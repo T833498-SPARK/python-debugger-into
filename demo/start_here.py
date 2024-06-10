@@ -20,8 +20,6 @@ if __name__ == "__main__":
     
     result = is_greater(a, b)
     
-   
-    
     # Create basic data structure
     my_list = [1, 2, 3, 4, 5]
     my_dictionary = {"name": "Richard", "position": "MLE"}
