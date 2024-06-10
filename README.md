@@ -1,37 +1,19 @@
 Welcome to the learn the (python) debugger repository! 
 
 # Setup
+
+## Install the debugger
 The first thing you'll want to do is install the python debugger vscode extension if you haven't already. 
 
 1. Go to extensions 
 2. Search `Python Debugger`
 3. Install 
 
-You should see a new icon appear on your sidebar that looks like so:
 
+## Install dependencies
+You may also want to install the dependencies associated with the FastAPI secion of this demo. To do so using conda run the following commands:
 
-![Debugger Icon](./images/debug_image.JPG)
+1. `conda create --name <your_env_name>`
+2. `conda activate <your_env_name>`
+3. `conda install --file requirements.txt`
 
-
-
-# Content
-
-1. Debugger setup 
-    a. get extension 
-    b. create a config
-2. Debugger basics
-    a. Breakpoints
-    b. Navigation
-    c. Variables
-3. Helpful tools 
-    a. Watch 
-    b. Debug console 
-4. Debugger advanced
-    a. call stack
-    b. Debug an API 
-    c. just my code
-
-example use cases:
-1. fucking up a function signature
-    a. No worries, just run in the debug console and save yourself the 
-    hassle of re-running the script
