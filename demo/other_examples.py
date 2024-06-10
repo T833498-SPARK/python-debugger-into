@@ -16,3 +16,13 @@ if __name__ == "__main__":
     print(f"List with a: {list_with_a}")
     print(f"List with b: {list_with_b}")
     
+    
+    
+    
+    items = ['A', 'B', 'C', 'D', 'E']
+
+    for item in items:
+        if item == 'B':
+            items.remove('B')
+        else:
+            print(item)
