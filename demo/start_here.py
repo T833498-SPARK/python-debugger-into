@@ -14,11 +14,11 @@ def is_greater(a: int, b: int) -> bool:
 
 if __name__ == "__main__":
     a = 3
-    print(f"{a=}")
     b = 4
+    print(f"{a=}")
     print(f"{b=}")
+    
     result = is_greater(a, b)
-    print(f"{result=}")
     
    
     
