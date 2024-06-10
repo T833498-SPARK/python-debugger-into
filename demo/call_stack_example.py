@@ -1,19 +1,15 @@
-def do_something_complicated(my_string: str) -> list[int]:
-    return nondescript_function_1(my_string)
-    
+def select_value(input_2):
+    return input_2[0]
 
-def nondescript_function_1(my_string):
-    my_list = nondescript_function_2(my_string)
-    reversed_list = my_list[::-1]
-    return reversed_list
+def reverse_and_select(input_1):
+    reversed_list = input_1[::-1]
+    c = select_value(reversed_list)
+    return c
 
-def nondescript_function_2(my_string):
-    return my_string.split()
+def repeat_list(my_list: list[int]):
+    value = reverse_and_select(my_list)
+    return my_list * value
 
 if __name__ == "__main__":
-    do_something_complicated("Hello-World!")
-    
-    
-    
-    
-
+    result = repeat_list([1, 2, 3, 4, 5])
+    print(result)

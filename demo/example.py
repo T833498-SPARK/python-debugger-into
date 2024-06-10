@@ -18,8 +18,4 @@ if __name__ == "__main__":
     result = is_greater(a, b)
     print(f"{result=}")
     
-    
-    # b = "I'm a string"
-    # is_greater(a,b)
-    
-    
+
