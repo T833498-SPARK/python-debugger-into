@@ -1,6 +1,6 @@
 def is_greater(a: int, b: int) -> bool:
     print("Checking to see if a is greater than b...")   
-    result = a > b
+    result = a < b
     
     if result:
         print(f"{a} is greater than {b}")
