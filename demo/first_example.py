@@ -20,4 +20,13 @@ if __name__ == "__main__":
     result = is_greater(a, b)
     print(f"{result=}")
     
+   
+    
+    # Create basic data structure
+    my_list = [1, 2, 3, 4, 5]
+    my_dictionary = {"name": "Richard", "position": "MLE"}
+    my_tuple = (1, 2)
+    my_set = {1, 2, 5, 3}
+
+    
 
