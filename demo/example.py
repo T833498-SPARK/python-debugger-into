@@ -16,8 +16,10 @@ if __name__ == "__main__":
     a = 3
     b = 4
     result = is_greater(a, b)
+    print(f"{result=}")
     
-    b = "I'm a string"
-    is_greater(a,b)
+    
+    # b = "I'm a string"
+    # is_greater(a,b)
     
     
