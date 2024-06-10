@@ -10,7 +10,7 @@ async def root():
 def foo():
     return "bar"
 
-@app.get("/test/")
+@app.get("/test")
 def test_endpoint():
     value = foo()
     return "foo" + value
