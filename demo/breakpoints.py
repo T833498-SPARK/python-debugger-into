@@ -1,5 +1,5 @@
 def is_prime(number: int) -> bool:
-    numbers_to_check = [number for number in range(start=2, stop=number)]
+    numbers_to_check = [number for number in range(2, number)]
     for i in numbers_to_check:
         if number % i == 0:
             return False
