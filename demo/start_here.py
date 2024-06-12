@@ -1,3 +1,9 @@
+import time
+from datetime import datetime
+
+def get_current_time():
+    return time.time()
+
 def is_greater(a: int, b: int) -> bool:
     print("Checking to see if a is greater than b...")   
     result = a < b
@@ -19,6 +25,8 @@ if __name__ == "__main__":
     print(f"{b=}")
     
     result = is_greater(a, b)
+    
+    current_timestamp = get_current_time()
     
     # Create basic data structure
     my_list = [1, 2, 3, 4, 5]

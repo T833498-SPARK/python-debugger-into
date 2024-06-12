@@ -12,6 +12,7 @@ def foo():
 
 @app.get("/test")
 def test_endpoint():
-    value = foo()
-    return "foo" + value
+    my_name = {"name": "Richard"}
+    my_role = {"position": "MLE"}
+    return my_name | my_role
     
