@@ -18,14 +18,14 @@ def is_greater(a: int, b: int) -> bool:
 
 
 if __name__ == "__main__":
+    current_timestamp = get_current_time()
+    
     a = 3
     b = 4
     print(f"{a=}")
     print(f"{b=}")
     
     result = is_greater(a, b)
-    
-    current_timestamp = get_current_time()
     
     # Create basic data structure
     my_list = [1, 2, 3, 4, 5]
