@@ -17,3 +17,11 @@ You may also want to install the dependencies associated with the FastAPI sectio
 2. `conda activate python_debug_training`
 
 
+# Advanced run through ideas
+
+1. multipul debugger instances
+2. API debugging 
+3. Pausing mid execution
+4. editing breakpoints
+5. logpoints
+6. justmycode
